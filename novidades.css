@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Pacifico&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(31, 33, 34, 0.767);
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+li:hover { 
+    color: red;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-image: url(https://secure-static.vans.com.br/medias/sys_master/vans/vans/h38/h20/h00/h00/12336460529694/Natal-btestchamada.jpg); 
+    background-position: 100% 100%;
+    background-size: cover;
+    margin-top: 0%;
+    width: 100%;
+    height: 200px;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 70px;
+    margin-left: 40%;
+    margin-top: 2%;
+    color: red;
+    background: linear-gradient(to right, #ff0000, #feb47b); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cards-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family:"Kdam Thmor Pro", sans-serif ;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner1 {
+    background-image: url(https://painel.lojavirus.com.br/uploads/knu_02_27ca993b2f.jpg);
+}
+
+.banner2 {
+    background-image: url(https://acdn.mitiendanube.com/stores/001/155/809/products/image00003-e268980e63faa50fb117025778683285-640-0.webp);
+}
+
+.banner3 {
+    background-image: url(https://baldani.es/arquivos/dcc600cc0cfb.0.jpg);
+}   
+
+.banner4 {
+    background-image: url(https://secure-static.vans.com.br/medias/sys_master/vans/vans/hdd/ha2/h00/h00/11785374335006/4703101960002U-01-BASEIMAGE-Hires.jpg);
+    color: black;
+}
+
+.banner5 {
+    background-image: url(https://secure-static.vans.com.br/medias/sys_master/vans/vans/h3c/h38/h00/h00/11042044543006/4701603380001U-07-BASEIMAGE-Hires.jpg);
+    color: black;
+}
+
+.banner6 {
+    background-image: url(https://artwalk.vtexassets.com/arquivos/ids/557552/HFYWH-T-100-3-AW-800x1000.jpg?v=638640057406570000);
+    color: black;
+}
+
+.banner7 {
+    background-image: url(https://secure-static.vans.com.br/medias/sys_master/vans/vans/h62/h0e/h00/h00/11869458661406/5000100070001U-01-BASEIMAGE-Hires.jpg    );
+    color: black;
+}
+
+.banner8 {
+    background-image: url(https://secure-static.vans.com.br/medias/sys_master/vans/vans/h55/h98/h00/h00/12030392074270/5000301100002U-06-BASEIMAGE-Hires.jpg);
+    color: black;
+}
+
+.banner9 {
+    background-image: url(https://secure-static.vans.com.br/medias/sys_master/vans/vans/he0/h67/h00/h00/11749451857950/5000100070002U-01-BASEIMAGE-Hires.jpg);
+    color: black;
+}
+
+.banner10 {
+    background-image: url(https://secure-static.vans.com.br/medias/sys_master/vans/vans/h08/ha4/h00/h00/12093189521438/1004400290001U-02-BASEIMAGE-Hires.jpg);
+}
+
+.banner11 {
+    background-image: url(https://secure-static.vans.com.br/medias/sys_master/vans/vans/ha3/had/h00/h00/12233749987358/4706700350003U-02-BASEIMAGE-Hires.jpg);
+}
+
+.banner12 {
+    background-image: url(https://secure-static.vans.com.br/medias/sys_master/vans/vans/h94/hc0/h00/h00/12111373107230/1003800510004U-03-BASEIMAGE-Hires.jpg);
+}   
+
+
+@media(max-width: 768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        width: 60%;
+    }
+    
+    ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    li {
+        list-style: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 12px;
+        transition: .5s;
+        font-family: "Kdam Thmor Pro", sans-serif;
+    }
+    
+    li:hover { 
+        color: red;
+    }
+    
+    header{
+        width: 100%;
+    }
+
+    #banner {
+        width: 100%;
+        height: 100px;
+    }
+
+    #logo {
+        
+        width: 100px;
+        height: auto;
+    }
+
+    h1 {
+        font-family: "Pacifico", cursive;
+        font-size: 65px;
+        margin-left: 17%;
+        margin-top: 3%;
+        color: red;
+        background: linear-gradient(to right, #ff0000, #feb47b); 
+        -webkit-background-clip: text; 
+        background-clip: text;
+        color: transparent; 
+    }
+
+    .actor-cards-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .cards-container {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+        column-gap: 40px;
+    }
+    
+    .card {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0 0 20px 10px;
+        color: black;
+        font-size: 10px;
+        font-family:"Kdam Thmor Pro", sans-serif ;
+    }
+    
+    .card:hover {
+        transform: scale(1.02);
+    }
+
+    
+} 
