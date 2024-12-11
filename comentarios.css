@@ -7,6 +7,16 @@
     text-decoration: none;
 }
 
+.container-background {
+    position: absolute;      
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh);  
+    background-image: url(https://i.pinimg.com/736x/32/a5/ec/32a5ecb8e9ebf106d90b617a28aa46b2.jpg); 
+    z-index: -1;
+}
+
 h1 {
     font-family: "Original Surfer", sans-serif;
 }
@@ -15,6 +25,8 @@ h2 {
     font-family: "Pacifico", cursive;
     margin-left: 38%;
     margin-top: 2%;
+    color: white;
+    
 }
 
 header {
@@ -127,6 +139,10 @@ li:hover {
         padding: 0;
         box-sizing: border-box;
         overflow-x: hidden;
+    }
+
+    .background-video {
+        display: none;
     }
 
     .footer-navigation {

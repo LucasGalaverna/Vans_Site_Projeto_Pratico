@@ -193,10 +193,32 @@ footer {
         padding: 0;
         box-sizing: border-box;
         overflow-x: hidden;
+        
+    }
+
+    header {
+        position: relative;   
+        z-index: 1;
+    }
+
+    .container-background {
+        position: absolute;      
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(130vh);  /* Ajuste o tamanho de acordo com a altura do header */
+        background-color: black;
+        
+        z-index: -1;
     }
 
     .footer-navigation {
         display: block;
+    }
+
+    .background-video {
+        display: none;
+        
     }
 
     nav {
@@ -236,6 +258,8 @@ footer {
         width: 100px;
         height: auto;
     }
+
+    
 
     h2 {
         color: beige;

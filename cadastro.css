@@ -134,6 +134,11 @@ button:hover {
         box-sizing: border-box;
     }
 
+    .video-background {
+        display: none;
+    }
+
+
     body {
         font-family: Arial, sans-serif;
         height: 90vh;
@@ -142,6 +147,7 @@ button:hover {
         align-items: center;
         overflow: hidden;
         flex-direction: column;
+        background-image: url(https://i.pinimg.com/736x/8e/c7/fa/8ec7fae7641829a428a7418de240d72c.jpg);
     }
     
     /* Menu de Navegação (Header) */
