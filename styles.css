@@ -155,6 +155,7 @@ h2 {
     justify-content: flex-end;
     padding: 0 0 20px 10px;
     color: #fff;
+    text-shadow: 2px 2px 4px black;
     font-size: 17px;
     font-family:"Kdam Thmor Pro", sans-serif ;
 }
@@ -206,7 +207,7 @@ footer {
         top: 0;
         left: 0;
         width: 100%;
-        height: calc(130vh);  /* Ajuste o tamanho de acordo com a altura do header */
+        height: 250%;  
         background-color: black;
         
         z-index: -1;
@@ -349,6 +350,7 @@ footer {
         padding: 0 0 20px 10px;
         color: #fff;
         font-size: 17px;
+        text-shadow: 2px 2px 4px black;
         font-family:"Kdam Thmor Pro", sans-serif ;
     }
     

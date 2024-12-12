@@ -92,6 +92,7 @@ h1 {
     justify-content: flex-end;
     padding: 0 0 20px 10px;
     color: #fff;
+    text-shadow: 2px 2px 4px black;
     font-size: 17px;
     font-family:"Kdam Thmor Pro", sans-serif ;
 }
@@ -245,6 +246,7 @@ h1 {
         justify-content: flex-end;
         padding: 0 0 20px 10px;
         color: beige;
+        text-shadow: 2px 2px 4px black;
         font-size: 10px;
         font-family:"Kdam Thmor Pro", sans-serif ;
     }
